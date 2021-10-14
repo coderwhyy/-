@@ -1,0 +1,48 @@
+.App{
+    display: flex;
+}
+
+.CheckBoxAll,.Products,.Cart{
+    padding: 20px;
+}
+
+.CheckBoxAll,.Cart{
+    width: 500px;
+}
+
+.CheckBoxAll{
+    text-align:right;
+}
+
+.Products{
+    flex: 1;
+}
+
+.selects{
+    float: right;
+}
+
+.productAll{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align:center;
+}
+
+.productItem {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+
+.producttite {
+    width: 180px;
+    text-overflow: ellipsis; /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+    white-space: nowrap; /*让文字不换行*/
+    overflow: hidden; /*超出要隐藏*/
+}
+.productimg {
+    width: 180px;
+    height: 180px;
+}
